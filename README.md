@@ -65,8 +65,8 @@ Plugin created especially for [Teamlead Roadmap project](https://github.com/tlbo
 ## Install
 
 ```sh
-yarn add -D vuepress-plugin-locale-prefix
-# OR npm install -D vuepress-plugin-locale-prefix
+yarn add -D @b0g3r/vuepress-plugin-locale-prefix
+# OR npm install -D @b0g3r/vuepress-plugin-locale-prefix
 ```
 
 ## Usage
@@ -75,7 +75,7 @@ yarn add -D vuepress-plugin-locale-prefix
 ```js
 module.exports = {
   plugins: [
-    ['locale-prefix',{
+    ['@b0g3r/locale-prefix',{
       locales: new Map([
         ['en', '/en/'],
         ['ru', '/'],

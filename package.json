@@ -1,6 +1,6 @@
 {
   "name": "@b0g3r/vuepress-plugin-locale-prefix",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "description": "VuePress plugin which replaces /path/%locale%.html paths to /%locale%/path.html",
   "keywords": [
