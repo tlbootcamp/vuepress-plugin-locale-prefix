@@ -1,0 +1,42 @@
+{
+  "name": "@b0g3r/vuepress-plugin-locale-prefix",
+  "version": "0.1.1",
+  "license": "MIT",
+  "description": "VuePress plugin which replaces /path/%locale%.html paths to /%locale%/path.html",
+  "keywords": [
+    "i18n",
+    "plugin",
+    "url",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/tlbootcamp/vuepres-plugin-locale-prefix",
+  "bugs": {
+    "url": "https://github.com/tlbootcamp/vuepres-plugin-locale-prefix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlbootcamp/vuepres-plugin-locale-prefix.git"
+  },
+  "author": "Dima Boger <kotvberloge@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "eslint --ext .ts src"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "typescript": "^3.8.3",
+    "vue-router": "^3.1.6",
+    "vuepress-types": "^0.9.1"
+  }
+}
